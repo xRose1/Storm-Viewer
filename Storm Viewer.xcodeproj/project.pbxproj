@@ -12,6 +12,8 @@
 		0432781C22788AFF0059AA3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432781A22788AFF0059AA3B /* Main.storyboard */; };
 		0432781E22788B010059AA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0432781D22788B010059AA3B /* Assets.xcassets */; };
 		0432782122788B010059AA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432781F22788B010059AA3B /* LaunchScreen.storyboard */; };
+		0432782A22789FE70059AA3B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432782822789FE70059AA3B /* DetailViewController.swift */; };
+		0432782B22789FE70059AA3B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0432782922789FE70059AA3B /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0432781D22788B010059AA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0432782022788B010059AA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0432782222788B010059AA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0432782822789FE70059AA3B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0432782922789FE70059AA3B /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				0432781622788AFF0059AA3B /* AppDelegate.swift */,
 				0432781822788AFF0059AA3B /* ViewController.swift */,
+				0432782822789FE70059AA3B /* DetailViewController.swift */,
+				0432782922789FE70059AA3B /* DetailViewController.xib */,
 				0432781A22788AFF0059AA3B /* Main.storyboard */,
 				0432781D22788B010059AA3B /* Assets.xcassets */,
 				0432781F22788B010059AA3B /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 				0432782122788B010059AA3B /* LaunchScreen.storyboard in Resources */,
 				0432781E22788B010059AA3B /* Assets.xcassets in Resources */,
 				0432781C22788AFF0059AA3B /* Main.storyboard in Resources */,
+				0432782B22789FE70059AA3B /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0432782A22789FE70059AA3B /* DetailViewController.swift in Sources */,
 				0432781922788AFF0059AA3B /* ViewController.swift in Sources */,
 				0432781722788AFF0059AA3B /* AppDelegate.swift in Sources */,
 			);
